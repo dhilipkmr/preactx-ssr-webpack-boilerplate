@@ -1,0 +1,8 @@
+node_modules
+.DS_Store
+/build
+/*.log
+assets.json
+.vscode/
+package-lock.json
+/static/dist
