@@ -5,4 +5,4 @@ node_modules
 assets.json
 .vscode/
 package-lock.json
-/static/dist
+/public/dist

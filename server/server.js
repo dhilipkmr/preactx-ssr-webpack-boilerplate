@@ -7,7 +7,7 @@ const {setServerRoutes} = require('./template');
 const { PORT = 8090 } = process.env;
 
 const appServer = express();
-appServer.use(express.static('static'));
+appServer.use(express.static('public'));
 setServerRoutes(appServer);
 
 appServer.listen(PORT, (err) => {

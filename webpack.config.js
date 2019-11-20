@@ -39,7 +39,7 @@ module.exports = (env, argv) => {
         ]
       },
       output: {
-        path: path.join(__dirname, "static/dist"),
+        path: path.join(__dirname, "public/dist"),
         filename: '[name]-[chunkhash].js',
         chunkFilename: '[name]-[chunkhash].js'
       },
