@@ -10,8 +10,8 @@
   "scripts": {
     "lint": "eslint -c .eslintrc src",
     "dev": "better-npm-run start-dev",
-    "build-prod": "better-npm-run build-prod",
-    "start-prod": "better-npm-run start-prod",
+    "build": "better-npm-run build-prod",
+    "start": "better-npm-run start-prod",
     "postinstall": "link-module-alias",
     "getstats": "better-npm-run getstats"
   },
